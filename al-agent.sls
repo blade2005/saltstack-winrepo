@@ -9,4 +9,4 @@ al-agent:
     reboot: False
     locale: en_US
     # SENSOR_HOST, SENSOR_PORT, USE_PROXY, PROV_NOW, PROV_KEY, PROV_ONLY, INSTALL_ONLY
-    install_flags: '/qn {{ alertlogic_windows_options }}'
+    install_flags: "/qn {{ alertlogic_windows_options }}"
