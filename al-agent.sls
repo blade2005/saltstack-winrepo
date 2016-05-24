@@ -4,9 +4,9 @@
 al-agent:
   latest:
     installer: "{{ alertlogic_pkg_url }}"
-    full_name: Alert Logic Unified Agent
+    full_name: AL Agent
     msiexec: True
     reboot: False
     locale: en_US
     # SENSOR_HOST, SENSOR_PORT, USE_PROXY, PROV_NOW, PROV_KEY, PROV_ONLY, INSTALL_ONLY
-    install_flags: "/qb {{ alertlogic_windows_install_options }}"
+    install_flags: "/qn {{ alertlogic_windows_install_options }}"
